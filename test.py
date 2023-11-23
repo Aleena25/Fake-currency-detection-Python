@@ -1,7 +1,7 @@
 import cv2
 import os
 import numpy as np
-from skimage.measure import compare_ssim
+from skimage.metrics import structural_similarity
 import pickle
 # for selecting the curreny for checking genuinity
 import tkinter as tk
